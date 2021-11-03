@@ -154,8 +154,9 @@ impl Sandbox {
                             stderr,
                             stdout,
                         }
-                    }
-                    Error => CompilationResult::Error { stderr, stdout },
+                    },
+                    Ok(None) => CompilationResult::Error { stderr, stdout },
+                    Err(_) => CompilationResult::Error { stderr, stdout },
                 }
             }
             None => {
