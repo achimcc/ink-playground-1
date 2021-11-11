@@ -2,7 +2,7 @@ import { Console } from './Console';
 import { Editor } from './Editor';
 import { Layout } from './Layout';
 import { Header } from './Header';
-import { AppProvider } from '~/context';
+import { AppProvider } from '~/context/app';
 import { ReactElement } from 'react';
 
 const App = (): ReactElement => {
