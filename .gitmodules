@@ -1,0 +1,3 @@
+[submodule "packages/substrate-contracts-explorer"]
+	path = packages/substrate-contracts-explorer
+	url = https://github.com/paritytech/substrate-contracts-explorer
